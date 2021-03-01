@@ -6,7 +6,7 @@ for (var number =0 ; number <= 10 ; number++) {
 }
 
 // 2nd request
-function number (num, n) {
+ /* function numb (num, n) {
     var num = prompt("write your number");
     for (var n = 0 ; n <= 10 ; n++) {
      var result = num * n;
@@ -14,5 +14,16 @@ function number (num, n) {
         window.alert(num + " * " + n + " = "+result);
  }
 }
+numb(); */
 
-number();
+
+// 3rd
+
+function num1 (num = 5, n) {
+    for (var n = 0 ; n <= 10 ; n++) {
+        var result = num * n;
+        console.log(num + " * " + n + " = "+result);
+    }
+}
+
+num1(7);
